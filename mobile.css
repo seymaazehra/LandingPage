@@ -1,0 +1,19 @@
+#navbar{
+    
+   flex-wrap: wrap;
+   height: 80px;
+   overflow: hidden;
+   padding-bottom: 0.5rem;
+   padding-top: 0.5rem;
+   text-align: center;
+
+}
+
+#navbar h1{
+  padding-left: 60px;
+}
+
+/* #training .items{
+   flex-direction: column;
+   width:100% tamami
+} */ /*mobile moduna gectiginde alt alta siralar*/

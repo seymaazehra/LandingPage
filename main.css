@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#software-languages {
+
+    background-color: rgb(241, 191, 97);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.secondbackground {
+    padding: 20px;
+    background-color: rgb(241, 191, 97);
+}
+
+
+#software-languages .software .description {
+    color: #333;
+    padding: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    
+
+
+}
+
+#software-languages .software-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+
+#software-languages span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#software-languages span:hover {
+    font-size: 25px;
+    color: darkblue;
+    text-align: center;
+
+}
+
+#software-languages .preference {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: olive;
+    border-radius: 3rem;
+    width: 3rem;
+   
+    
+
+}
+
+#software-languages .preference:hover {
+    background-color: greenyellow;
+}

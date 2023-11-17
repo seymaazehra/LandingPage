@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Text */
+
+
+.text-center{
+    text-align: center;
+}
+
+.heading-small{
+    font-size: 1.25rem;
+}
+
+.heading-big{
+    font-size: 1.75rem;
+}
+
+/* Colors */
+.bg-dark-blue{
+    background-color: #062e51;
+    
+}
+
+.bg-light-orange{
+    background-color: orangered;
+}
+
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a{
+    padding: 0.75rem;
+    
+    
+}
+#navbar ul li a:hover{
+    background-color: orangered;
+    border-radius: 6px;
+    
+    
+}
+
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+/*Home Section*/
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px dashed orange;
+}
+
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+
+}
+
+#home .name{
+    text-align: center;
+}
+
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+
+
+
+
+
+.btn{
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 1.5px;
+    
+}
+
+.btn-primary{
+    background-color: lightblue;
+}
+
+.btn-primary:hover{
+    color: #062e51;
+    background-color: white;
+    border: 0.5px dotted lightblue;
+}
+
+.btn-dark{
+    background-color: darkblue;
+}
+
+.btn-dark:hover{
+    color: #333;
+    background: #fff;
+    border: 0.5px dotted #333;
+}
+
+/*Training*/
+#training{
+    color: #fff;
+    padding: 1rem;
+}
+
+#training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+
+#training .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#training .items .item:hover{
+    color: orange;
+    opacity: 0.5;
+}
+
