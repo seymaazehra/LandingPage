@@ -17,3 +17,13 @@
    flex-direction: column;
    width:100% tamami
 } */ /*mobile moduna gectiginde alt alta siralar*/
+
+
+/* contact to me */
+
+#contact .contact-form{
+   
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+}

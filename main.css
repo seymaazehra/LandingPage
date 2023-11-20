@@ -71,3 +71,55 @@
 #software-languages .preference:hover {
     background-color: greenyellow;
 }
+
+/* contact to me */
+
+#contact .contact-form ul{
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+    list-style-type: none;
+    
+}
+
+#contact .contact-form label{
+    display: block;
+}
+
+
+#contact .contact-form ul li a{
+    font-size: 30px;
+    padding: 1rem;
+    
+    
+}
+
+#contact  .contact-form ul li a:hover{
+    opacity: 0.8;
+}
+
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+}
+
+#contact .form-group{
+    color: white;
+    font-size: 1rem;
+}
+
+#contact .btn-block{
+    width: 100%;
+    margin: 0 auto;
+
+}
