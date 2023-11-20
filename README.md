@@ -4,7 +4,7 @@ HTML-CSS
 <html lang="en">
 
 <body>
-<img src=".project-photo1" alt="LandingPage" />
+<img src="photo.jpg" alt="LandingPage" />
   
 </body>
 
